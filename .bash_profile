@@ -72,3 +72,4 @@ git_prompt() {
 export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\] "
 PS1+="\$(git_prompt)"           # prints current branch
 PS1+="\n\[\033[0;30m\]\$\[\033[0m\] "   # '#' for root, else '$'
+export ANDROID_HOME=/Users/loudermilk/Library/Android/sdk
